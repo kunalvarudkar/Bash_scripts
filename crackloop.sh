@@ -1,6 +1,6 @@
 #developer ==> paylaod
 #script for cracking passsword, whose password is the filename of residing zip file.
-#Challenge => eternal loop , hackthebox
+#Challenge => eternal loop (misc) , hackthebox
 
 #!/bin/bash
 
