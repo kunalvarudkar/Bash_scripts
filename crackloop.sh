@@ -16,7 +16,7 @@ do
 		exit 0
 	else		
 		rm -rf $filename
-	fi
+	fi   
 done
 
 #=========TODO===========
