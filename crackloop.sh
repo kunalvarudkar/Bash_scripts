@@ -12,7 +12,7 @@ do
 	unzip -P $password $filename
 	if [ $filename = "6969.zip" ];
 	then
-		fcrackzip -v -D -u -p /usr/share/wordlist/rockyou.txt 6969.zip
+		echo "=======> PASSWORD didnt matched for $filename <======="
 		exit 0
 	else		
 		rm -rf $filename
