@@ -36,8 +36,12 @@ init_scan()
 	if [ $response = "yes" ];
 	then
 	    vuln_scan $ip $mc_name
-	else
+	elif [ $response = "no" ];
+	then
+	    echo "++++++++++++++ Quiting ++++++++++++++"
 	    exit 0
+	else
+		exit 0
 	fi
 	
 }
